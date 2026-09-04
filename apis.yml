@@ -21,6 +21,8 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+  source:
+  - {url: 'https://www.empirix.com', status: 301, note: 'declared website redirects to https://www.infovista.com/vistacx-continuous-cx-assurance — a different registrable domain (empirix.com -> infovista.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/empirix.png
 name: Empirix
 description: 'Empirix was a communications and contact-center test, assurance, and monitoring company
