@@ -1,0 +1,28 @@
+edges:
+- partner_name: Genesys (own)
+  partner: genesys
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://appfoundry.genesys.com/filter/genesyscloud/listing/486f1b1b-14c5-4bd1-8551-eca78a9db889
+  mirror_of: genesys/integrations/genesys-integration-edges.yml
+  apps:
+  - Hammer Cloud Platform
+  listing_count: 1
+  detected: '2026-10-19'
+  detected_by: mirror-platform-listings.py
+  category: businessOptimization|operations
+  publisher_verified:
+  - attestation:gdpr
+  - attestation:iso
+  - attestation:soc2
+generated: '2026-10-19'
+method: searched
+source:
+- genesys/integrations/genesys-integration-edges.yml
+checked:
+- genesys/integrations/genesys-integration-edges.yml
